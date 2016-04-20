@@ -1,0 +1,19 @@
+{
+  "name": "webpack-react-sample",
+  "version": "1.0.0",
+  "description": "learning sample of webpack and reactjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saitop/webpack-react-sample.git"
+  },
+  "author": "Hansun Lam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Saitop/webpack-react-sample/issues"
+  },
+  "homepage": "https://github.com/Saitop/webpack-react-sample#readme"
+}
