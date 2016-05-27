@@ -1,0 +1,8 @@
+body {
+    font-size: 6rem;
+    background: yellow;
+    /*background-image: url('../assets/bearpoo.png');*/
+}
+img {
+  width: 70rem;
+}

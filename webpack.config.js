@@ -1,8 +1,8 @@
 const webpack = require('webpack');
 module.exports = {
-  entry: "./app/components/app.jsx",
+  entry: './app/components/app.jsx',
   output: {
-    filename: "public/bundle.js"
+    filename: 'public/bundle.js'
   },
   devServer: {
     inline: true,
@@ -21,18 +21,26 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        loader: "style!css"
+        loader: 'style!css'
+      },
+      {
+          test: /\.(jpe?g|png|gif|svg)$/i,
+          loaders: [
+              'file?hash=sha512&digest=hex&name=public/[hash].[ext]',
+              'image-webpack?bypassOnDebug&optimizationLevel=7&interlaced=false'
+          ]
       }
     ]
   },
-  plugins: [
-    new webpack.optimize.UglifyJsPlugin({
-      compress: {
-          warnings: false,
-      },
-      output: {
-          comments: false,
-      },
-    })
-  ]
+
+  // plugins: [
+  //   new webpack.optimize.UglifyJsPlugin({
+  //     compress: {
+  //         warnings: false,
+  //     },
+  //     output: {
+  //         comments: false,
+  //     },
+  //   })
+  // ]
 }
