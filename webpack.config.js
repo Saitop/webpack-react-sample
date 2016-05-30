@@ -1,9 +1,11 @@
 const webpack = require('webpack');
 module.exports = {
   entry: './app/components/app.jsx',
+
   output: {
     filename: 'public/bundle.js'
   },
+
   devServer: {
     inline: true,
     port: 3333

@@ -4,6 +4,7 @@
   "description": "learning sample of webpack and reactjs",
   "main": "index.js",
   "scripts": {
+    "start": "open http://localhost:3333/public && webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
