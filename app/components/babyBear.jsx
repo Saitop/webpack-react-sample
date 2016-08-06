@@ -1,3 +1,4 @@
+//this compoent is for testing and demo
 const React = require('react');
 require("../styles/bear.css");
 const img = require("../assets/bearpoo.png");

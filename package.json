@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/Saitop/webpack-react-sample#readme",
   "dependencies": {
-    "react": "^0.14.3"
+    "history": "^1.13.1",
+    "react": "^0.14.3",
+    "react-router": "^1.0.1"
   },
   "devDependencies": {
     "babel-core": "^6.3.13",
